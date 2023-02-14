@@ -35,8 +35,11 @@ CA_SSLCOM_ECC="https://acme.ssl.com/sslcom-dv-ecc"
 CA_GOOGLE="https://dv.acme-v02.api.pki.goog/directory"
 CA_GOOGLE_TEST="https://dv.acme-v02.test-api.pki.goog/directory"
 
-DEFAULT_CA=$CA_ZEROSSL
-DEFAULT_STAGING_CA=$CA_LETSENCRYPT_V2_TEST
+CA_GOSENCRYPT="https://api.gosencrypt.ru/v2/directory"
+CA_GOSENCRYPT_TEST="https://api.gosencrypt.ru/v2test/directory"
+
+DEFAULT_CA=$CA_GOSENCRYPT
+DEFAULT_STAGING_CA=$CA_GOSENCRYPT_TEST
 
 CA_NAMES="
 ZeroSSL.com,zerossl
