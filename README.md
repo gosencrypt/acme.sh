@@ -97,7 +97,8 @@ https://github.com/acmesh-official/acmetest
 
 # Supported CA
 
-- [ZeroSSL.com CA](https://github.com/acmesh-official/acme.sh/wiki/ZeroSSL.com-CA)(default)
+- [GosEncrypt CA](https://gosencrypt.ru/guide/)(default)
+- [ZeroSSL.com CA](https://github.com/acmesh-official/acme.sh/wiki/ZeroSSL.com-CA)
 - Letsencrypt.org CA
 - [BuyPass.com CA](https://github.com/acmesh-official/acme.sh/wiki/BuyPass.com-CA)
 - [SSL.com CA](https://github.com/acmesh-official/acme.sh/wiki/SSL.com-CA)
